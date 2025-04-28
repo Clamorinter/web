@@ -1,0 +1,10 @@
+  <footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container text-center">
+      <p class="mb-0">&copy; <?= date('Y') ?> V-Server. Все права защищены.</p>
+      <small>Сделано с ❤️ для удобной аренды серверов.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
