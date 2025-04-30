@@ -69,3 +69,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p>Нет аккаунта? <a href="register.php">Зарегистрироваться</a></p>
   </div>
 </main>
+
+<?php include 'footer.php'; ?>

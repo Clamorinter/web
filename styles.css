@@ -125,4 +125,16 @@ img.img-fluid {
   max-width: 1140px;
 }
 
+.text-justify{
+  text-align:justify !important;
+}
+
+hr.account, input.account {
+  width: 50%;
+}
+
+.mx-10 {
+  margin-left: 30% !important;
+  margin-right: 30% !important;
+}
 

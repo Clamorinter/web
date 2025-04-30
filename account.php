@@ -33,9 +33,9 @@ $servers = $serversStmt->fetchAll();
 
 <?php include 'header.php'; ?>
 
-<main class="container py-4">
+<main class="container py-4 mx-10">
   <h1>Личный кабинет</h1>
-  <hr>
+  <hr class="account">
   <?php if (isset($_SESSION['success'])): ?>
 	  <div class="alert alert-success alert-dismissible fade show" role="alert">
 		<?= htmlspecialchars($_SESSION['success']) ?>
@@ -68,11 +68,11 @@ $servers = $serversStmt->fetchAll();
     <form action="change_password.php" method="POST">
       <div class="mb-3">
         <label for="old_password" class="form-label">Старый пароль</label>
-        <input type="password" class="form-control" id="old_password" name="old_password" required>
+        <input type="password" class="form-control account" id="old_password" name="old_password" required>
       </div>
       <div class="mb-3">
         <label for="new_password" class="form-label">Новый пароль</label>
-        <input type="password" class="form-control" id="new_password" name="new_password" required>
+        <input type="password" class="form-control account" id="new_password" name="new_password" required>
       </div>
       <button type="submit" class="btn btn-primary">Сменить пароль</button>
     </form>

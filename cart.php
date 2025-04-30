@@ -92,3 +92,4 @@ $cartItems = $stmt->fetchAll();
   }, 5000);
 </script>
 
+<?php include 'footer.php'; ?>
